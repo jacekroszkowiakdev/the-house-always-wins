@@ -1,0 +1,25 @@
+.button {
+    width: 70px;
+    height: 40px;
+    background-color: #b4e2e2;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.button:hover {
+    transition: 0.4s all;
+    box-shadow: 0 0 5px black;
+    font-weight: 900;
+}
+
+#start:active {
+    transition: 0.6s all;
+    background-color: red;
+    text-decoration-color: white;
+}
+
+#cash_out:active {
+    transition: 0.6s all;
+    background-color: green;
+    text-decoration-color: white;
+}
